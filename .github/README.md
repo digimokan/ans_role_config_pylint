@@ -53,7 +53,7 @@ Install and configure the pylint python linter.
        - name: "Install and configure the pylint python linter"
          ansible.builtin.include_role:
            name: ans_role_config_pylint
-           public: yes
+           public: true
    ```
 
 ## Role Options
